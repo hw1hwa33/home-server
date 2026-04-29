@@ -1,6 +1,8 @@
+
 # Home Server
 
 개인 홈서버 인프라 구성
+https://www.notion.so/351f074a9e4480e19d5dd5bd835459b5?source=copy_link
 
 ## 구성
 - Docker

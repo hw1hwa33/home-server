@@ -1,0 +1,12 @@
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+    depends_on:
+      - app
+
+  app:
+    image: nginx:latest

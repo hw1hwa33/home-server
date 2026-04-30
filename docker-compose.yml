@@ -6,7 +6,7 @@ services:
     volumes:
       - ./nginx:/etc/nginx/conf.d
     depends_on:
-      - app
+      - backend
 
-  app:
-    image: nginx:latest
+  backend:
+    build: ./services/backend
